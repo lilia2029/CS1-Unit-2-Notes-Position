@@ -6,3 +6,31 @@ body{
     height: 1000px;
 
 }
+/*ABSOLUTE positioning is like setting x,y coordinates
+The element is pulled OUT of the page's NORMAL FLOW
+Then we set the DISTANCE from two sides (top & left)
+*/
+#absolute{
+    position: absolute;
+    top: 200px;
+    left: 250px;
+}
+/*FIXED positioning keeps the element in the smae place even when you scroll down
+*/
+#fixed{
+    position: fixed;
+    bottom: 0px;
+    right:0px;
+}
+/*STICKY positionung is like fixed but it only sicks there when you scroll to it
+*/
+#sticky{
+    position:sticky;
+    top:10px;
+    left: 10px;
+}
+/*
+*/
+#relative{
+    
+}
