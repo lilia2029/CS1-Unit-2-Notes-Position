@@ -12,8 +12,10 @@ Then we set the DISTANCE from two sides (top & left)
 */
 #absolute{
     position: absolute;
-    top: 200px;
-    left: 250px;
+    top: 530px;
+    left: 500px;
+    /*Z-INDEX layers the images, pick a big # if you want it it be in front, pick a small # if you want to make it go backwards*/
+    z-index: 0;
 }
 /*FIXED positioning keeps the element in the smae place even when you scroll down
 */
@@ -29,8 +31,14 @@ Then we set the DISTANCE from two sides (top & left)
     top:10px;
     left: 10px;
 }
-/*
+#container{
+    background:rgb(255, 255, 159);
+    display:inline-block;
+}
+/*RELATIVE positioning lets you "nudge" an element from its normal position on the page (moves it relative to its static spot-colored square)
 */
 #relative{
-    
+    position:relative;
+    top:-20px;
+    left:20px;
 }
